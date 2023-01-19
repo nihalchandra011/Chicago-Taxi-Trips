@@ -1,7 +1,4 @@
 # Chicago Taxi Trips
-**Project 3** \
-**CS 424 - Visualization and Visual Analytics** \
- **Authors: Swetha Jayakumar, Nihal Chandra**
 
 **Link to Webpage**: https://nchand26.github.io/project-3-viz-comrades/ 
 <br><br>
