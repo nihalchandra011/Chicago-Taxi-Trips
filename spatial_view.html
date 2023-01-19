@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+      <script src="us-states.js"></script>
+      <!--<script src="main.js"></script>-->
+      <script src="spatial_view.js"></script>
+  </head>
+<body>
+    <div id="map">
+      <h2>Visualizing the No. of Trips taken by the Top 3 Taxi Companies for each Community Area</h2>
+      <p>Question 4:For each community area how do the top three taxi companies perform over the week?</p>
+      <svg
+        id="chicagoMap"
+        style="width: 720px; height: 720px; border: 1px solid black"
+      ></svg>
+      <svg
+        id="plot"
+        style="width: 720px; height: 720px;border: 1px solid black"
+      ></svg>
+    </div>
+</body>
+
+</html>

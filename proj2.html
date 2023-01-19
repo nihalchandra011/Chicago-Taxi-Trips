@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script src="proj2.js"></script>
+
+    <style>        
+      #scatter {
+      position: absolute;
+      width: 50%;
+      height: 90%;
+      }
+
+      #scatterbar {
+      position: absolute;
+      left: 51%;
+      width: 45%;
+      height: 90%;
+      }
+
+      #bar {
+      position: absolute;
+      top:92%;
+      width: 50%;
+      height: 90%;
+      }
+  </style>
+
+</head>
+<body>
+
+    <div>
+        <svg
+        id="scatter"
+        style="border: 1px solid black"
+      ></svg>
+      <svg
+        id="scatterbar"
+        style="border: 1px solid black"
+      ></svg>
+      <svg
+        id="bar"
+        style="border: 1px solid black"
+      ><g className="tooltip-area">
+        <text className="tooltip-area__text">aas</text>
+      </g></svg>
+    </div>
+</body>
+
+</html>
